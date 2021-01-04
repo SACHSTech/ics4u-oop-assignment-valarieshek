@@ -2,8 +2,11 @@ package src.OopAssignment;
 import src.OopAssignment.*;
 
 public class Tester {
-  public static void main (String[] args){
-    System.out.println("hi");
+  public void run(){
+    //System.out.println("hi");
+
+    MainMenu paint = new Paints ("oil paint");
+    System.out.println("Name: "+ MainMenu.getName());
   }
 
 /*

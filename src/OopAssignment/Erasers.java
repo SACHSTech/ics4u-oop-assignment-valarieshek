@@ -1,6 +1,6 @@
 package src.OopAssignment;
 import src.OopAssignment.*;
 
-public abstract class Erasers extends MainMenu{
+public class Erasers extends MainMenu{
   
 }

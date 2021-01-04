@@ -1,6 +1,6 @@
 package src.OopAssignment;
 import src.OopAssignment.*;
 
-public abstract class Brushes extends MainMenu{
+public class Brushes extends MainMenu{
 
 }

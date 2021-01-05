@@ -35,6 +35,26 @@ public class Tester {
     }else if (choice <6){
       token = token+1;
       System.out.println("testing");
+    }if (choice == 1){
+      //token = token+1;
+      MainMenu supply = new Paints ("a", "faber-castle");
+      System.out.println("Category: "+ supply.getName());
+    }if (choice == 2){
+      //token = token+1;
+      MainMenu tool = new Brushes (3, "canson");
+      System.out.println("Category: "+ tool.getName());
+    }if (choice == 3){
+      //token = token+1;
+      MainMenu paper = new Paper ("watercolour", "canson");
+      System.out.println("Category: "+ paper.getName());
+    }if (choice == 4){
+      //token = token+1;
+      MainMenu pencil = new Pencils ("2B", "faber-castle");
+      System.out.println("Category: "+ pencil.getName());
+    }if (choice == 5){
+      //token = token+1;
+      MainMenu eraser = new Erasers ("soft", "mono");
+      System.out.println("Category: "+ eraser.getName());
     }
 
   }

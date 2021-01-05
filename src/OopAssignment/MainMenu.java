@@ -1,5 +1,6 @@
 package src.OopAssignment;
 
+
 public abstract class MainMenu{
   
   private String name;
@@ -8,7 +9,7 @@ public abstract class MainMenu{
     {
         this.name = name;
     }
-    
+
     public void setName(String name)
     {
         this.name = name;
@@ -21,10 +22,8 @@ public abstract class MainMenu{
     
 
   public MainMenu(){
-
   } 
 /*
-  public abstract double getPrice();
   public abstract double getTotalPrice();
   public abstract String getBrands();
   public abstract String getSeries();

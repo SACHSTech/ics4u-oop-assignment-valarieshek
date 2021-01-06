@@ -63,6 +63,15 @@ public class Tester {
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
           System.out.println("Total Price: "+supply.getTotalPrice());
+          System.out.println("Would you like to continue shopping or quit?");
+          System.out.println("1) continue");
+          System.out.println("2) quit");
+          int choice5 = Integer.parseInt(keyboard.readLine());
+          if (choice5 == 2){
+          System.out.println("Total Price: "+supply.getTotalPrice());
+          System.out.println("Thank you for visiting out store.");
+          token = token+1;
+        }
         }
       }
     }if (choice == 2){

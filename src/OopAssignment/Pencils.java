@@ -7,6 +7,7 @@ public class Pencils extends MainMenu{
   private String series;
   private int quantity;
   private String media;
+  private String type;
 
   double price;
 
@@ -38,11 +39,16 @@ public class Pencils extends MainMenu{
     return price*quantity;
   }
 
-  public Pencils(String media){
+  public Pencils(String media, String type){
     this.media = media;
+    this.type = type;
   }
 
   public String getMedia(){
     return media;
+  }
+
+  public String getType(){
+    return type;
   }
 }

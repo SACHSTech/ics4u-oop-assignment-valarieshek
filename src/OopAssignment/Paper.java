@@ -6,6 +6,7 @@ public class Paper extends MainMenu{
   private String media;
   private String series;
   private int quantity;
+  private String type;
 
   double price;
 
@@ -42,4 +43,11 @@ public class Paper extends MainMenu{
     return price*quantity;
   }
 
+  public Paper(String type){
+    this.type = type;
+  }
+
+  public String getType(){
+    return type;
+  }
 }

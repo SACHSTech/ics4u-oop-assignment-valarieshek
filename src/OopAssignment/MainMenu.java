@@ -29,6 +29,7 @@ public abstract class MainMenu{
   public abstract int getQuantity();
   public abstract double getTotalPrice();
   public abstract String getMedia();
+  public abstract String getType();
 /*
   
   

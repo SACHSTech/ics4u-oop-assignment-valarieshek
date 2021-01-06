@@ -3,7 +3,7 @@ import src.OopAssignment.*;
 
 public class Brushes extends MainMenu{
   private String brands;
-  private int size;
+  private String type;
   private String series;
   private int quantity;
   private String media;
@@ -13,16 +13,17 @@ public class Brushes extends MainMenu{
   double FaberCastleC = 16.99;
   private double price;
 
-  public Brushes(String name, int size, String brands, int quantity){
+  public Brushes(String name, String type, String brands, int quantity, double price){
     super(name);
-    this.size = size;
+    this.type = type;
     this.brands = brands;
     this.quantity = quantity;
+    this.price = price;
 
   }
 
-  public Brushes(int size, String brands, int quantity){
-    this("Brushes", size, brands, quantity);
+  public Brushes(String type, String brands, int quantity, double price){
+    this("Brushes", type, brands, quantity, price);
   }
 
   public String getSeries(){
@@ -47,6 +48,10 @@ public class Brushes extends MainMenu{
 
   public String getMedia(){
     return media;
+  }
+
+  public String getType(){
+    return type;
   }
   
 }

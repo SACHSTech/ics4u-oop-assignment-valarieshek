@@ -3,22 +3,23 @@ import src.OopAssignment.*;
 
 public class Erasers extends MainMenu{
   private String brands;
-  private String texture;
+  private String type;
   private String series;
   private int quantity;
   private String media;
 
+
   double price;
 
-  public Erasers(String name, String texture, String brands, int quantity){
+  public Erasers(String name, String type, String brands, int quantity){
     super(name);
-    this.texture = texture;
+    this.type = type;
     this.brands = brands;
     this.quantity = quantity;
 
   }
-  public Erasers(String texture, String brands, int quantity){
-    this("Erasers", texture, brands, quantity);
+  public Erasers(String type, String brands, int quantity){
+    this("Erasers", type, brands, quantity);
   }
 
   public String getSeries(){
@@ -43,5 +44,9 @@ public class Erasers extends MainMenu{
 
   public String getMedia(){
     return media;
+  }
+
+  public String getType(){
+    return type;
   }
 }

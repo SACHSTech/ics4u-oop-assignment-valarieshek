@@ -6,6 +6,7 @@ public class Paints extends MainMenu{
   private String brands; 
   private int quantity;
   private String media;
+  private String type;
 
   
   double FaberCastleB = 12.99;
@@ -41,12 +42,18 @@ public class Paints extends MainMenu{
     return price*quantity;
   }
 
-  public Paints(String media){
+  public Paints(String media, String type){
     this.media = media;
+    this.type = type;
   }
 
   public String getMedia(){
     return media;
   }
+
+  public String getType(){
+    return type;
+  }
+
   
 }

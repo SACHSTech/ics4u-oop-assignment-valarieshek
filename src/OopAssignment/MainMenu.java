@@ -26,8 +26,10 @@ public abstract class MainMenu{
   
   public abstract String getSeries();
   public abstract String getBrands();
-/*
+  public abstract int getQuantity();
   public abstract double getTotalPrice();
+/*
+  
   
   
   public abstract double getSize();

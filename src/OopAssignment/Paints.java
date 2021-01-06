@@ -4,22 +4,28 @@ import src.OopAssignment.*;
 public class Paints extends MainMenu{
   private String series;
   private String brands; 
-  private int Quantity;
+  private int quantity;
+
   
-  public Paints(String name, String series, String brands){
+  double FaberCastleB = 12.99;
+  double FaberCastleC = 16.99;
+  private double price;
+  
+  public Paints(String name, String series, String brands, int quantity, double price){
     super(name);
     this.series = series;
     this.brands = brands;
+    this.quantity = quantity;
+    this.price = price;
 
   }
 
-  public Paints(String series, String brands){
-    this("Paints", series, brands);
+  public Paints(String series, String brands, int quantity, double price){
+    this("Paints", series, brands, quantity, price);
   }
 
-  public int getQuantity(int Quantity){
-    this.Quantity = Quantity;
-    return Quantity;
+  public int getQuantity(){
+    return quantity;
   }
 
   public String getSeries(){
@@ -29,4 +35,9 @@ public class Paints extends MainMenu{
   public String getBrands(){
     return brands;
   }
+
+  public double getTotalPrice(){
+    return price*quantity;
+  }
+  
 }

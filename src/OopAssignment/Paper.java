@@ -4,6 +4,7 @@ import src.OopAssignment.*;
 public class Paper extends MainMenu{
   private String brands;
   private String media;
+  private String series;
 
   public Paper(String name, String media, String brands){
     super(name);
@@ -14,5 +15,13 @@ public class Paper extends MainMenu{
 
   public Paper(String media, String brands){
     this("Paper", media, brands);
+  }
+
+  public String getSeries(){
+    return series;
+  }
+
+  public String getBrands(){
+    return brands;
   }
 }

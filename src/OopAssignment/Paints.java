@@ -21,4 +21,12 @@ public class Paints extends MainMenu{
     this.Quantity = Quantity;
     return Quantity;
   }
+
+  public String getSeries(){
+    return series;
+  }
+
+  public String getBrands(){
+    return brands;
+  }
 }

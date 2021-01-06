@@ -39,6 +39,30 @@ public class Tester {
       //token = token+1;
       MainMenu supply = new Paints ("a", "faber-castle");
       System.out.println("Category: "+ supply.getName());
+      
+      
+      
+      System.out.println();
+      System.out.println("Which brand would you like to choose?");
+      System.out.println("1) faber-castle");
+      System.out.println("2) canson");
+      System.out.println("3) Winsor & Newton");
+      System.out.println();
+      int choice2 = Integer.parseInt(keyboard.readLine());
+      if(choice2==1){
+        System.out.println();
+        System.out.println("Brand: "+supply.getBrands());
+        System.out.println("Which series of colour would you like?");
+        System.out.println("1) A");
+        System.out.println("2) B");
+        System.out.println("3) C");
+        System.out.println();
+        int choice3 = Integer.parseInt(keyboard.readLine());
+        if (choice3 == 1){
+          System.out.println();
+          System.out.println("Series: "+supply.getSeries());
+        }
+      }
     }if (choice == 2){
       //token = token+1;
       MainMenu tool = new Brushes (3, "canson");

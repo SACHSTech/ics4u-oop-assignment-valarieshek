@@ -1,5 +1,5 @@
 package src.OopAssignment;
-
+import java.io.*;
 
 public abstract class MainMenu{
   
@@ -23,10 +23,13 @@ public abstract class MainMenu{
 
   public MainMenu(){
   } 
+  
+  public abstract String getSeries();
+  public abstract String getBrands();
 /*
   public abstract double getTotalPrice();
-  public abstract String getBrands();
-  public abstract String getSeries();
+  
+  
   public abstract double getSize();
 
 */

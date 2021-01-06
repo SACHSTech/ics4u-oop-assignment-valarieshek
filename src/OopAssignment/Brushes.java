@@ -6,6 +6,7 @@ public class Brushes extends MainMenu{
   private int size;
   private String series;
   private int quantity;
+  private String media;
   
   double FaberCastleA = 7.99;
   double FaberCastleB = 12.99;
@@ -39,4 +40,13 @@ public class Brushes extends MainMenu{
   public double getTotalPrice(){
     return price*quantity;
   }
+
+  public Brushes(String media){
+    this.media = media;
+  }
+
+  public String getMedia(){
+    return media;
+  }
+  
 }

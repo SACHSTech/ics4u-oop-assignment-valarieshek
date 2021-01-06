@@ -9,16 +9,21 @@ public class Paper extends MainMenu{
 
   double price;
 
-  public Paper(String name, String media, String brands, int quantity){
+  public Paper(String name, String media, String brands, int quantity, double price){
     super(name);
     this.media = media;
     this.brands = brands;
     this.quantity = quantity;
+    this.price = price;
 
   }
 
-  public Paper(String media, String brands, int quantity){
-    this("Paper", media, brands, quantity);
+  public Paper(String media, String brands, int quantity, double price){
+    this("Paper", media, brands, quantity, price);
+  }
+
+  public String getMedia(){
+    return media;
   }
 
   public String getSeries(){
@@ -36,4 +41,5 @@ public class Paper extends MainMenu{
   public double getTotalPrice(){
     return price*quantity;
   }
+
 }

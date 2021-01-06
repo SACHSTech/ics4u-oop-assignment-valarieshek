@@ -6,6 +6,7 @@ public class Pencils extends MainMenu{
   private String darkness;
   private String series;
   private int quantity;
+  private String media;
 
   double price;
 
@@ -35,5 +36,13 @@ public class Pencils extends MainMenu{
 
   public double getTotalPrice(){
     return price*quantity;
+  }
+
+  public Pencils(String media){
+    this.media = media;
+  }
+
+  public String getMedia(){
+    return media;
   }
 }

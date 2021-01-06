@@ -6,6 +6,7 @@ public class Erasers extends MainMenu{
   private String texture;
   private String series;
   private int quantity;
+  private String media;
 
   double price;
 
@@ -34,5 +35,13 @@ public class Erasers extends MainMenu{
 
   public double getTotalPrice(){
     return price*quantity;
+  }
+
+  public Erasers(String media){
+    this.media = media;
+  }
+
+  public String getMedia(){
+    return media;
   }
 }

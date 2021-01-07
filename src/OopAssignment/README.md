@@ -1,2 +1,6 @@
 # **Class Diagram**
 <Image src = "https://github.com/SACHSTech/ics4u-oop-assignment-valarieshek/blob/main/src/OopAssignment/ClassDiagram.png" width="683px" height="512px">
+
+---
+### **Summary of Class Diagram**
+The main purpose of this function is for the convience of customers to find what they need since this is a program designed for customers of Kiki's Art Supply Store to find their desired supply. First, there's the main menu, which is the superclass, that has relationships with the subclasses: paints, paper, pencils, brushes and erasers. The subclasses act as the main categories for the customer to choose from. As for other abstract functions within theses 6 classes are some more detailed traits of a specific product to closey fit the needs of customers. The relationship between all of them are that as far as the program goes, the more detailed the description of the product is. Along with the more detailed choices in product, the price and total price is also shown so as customers shop on this program, they are able to know how much they've purchased. 

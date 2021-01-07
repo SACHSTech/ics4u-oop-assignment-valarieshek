@@ -59,9 +59,9 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           totalPrice = totalPrice + supply.getTotalPrice();
-          System.out.println("Testing: "+totalPrice);
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println();
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
@@ -70,7 +70,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice);
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }else if (choice5 ==1){
@@ -87,8 +87,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -96,7 +98,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -111,8 +113,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -120,7 +124,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: "+supply.getTotalPrice());
+          System.out.println("Final Total Price: "+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -144,8 +148,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -153,7 +159,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -168,8 +174,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -177,7 +185,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -192,8 +200,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -201,7 +211,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: "+supply.getTotalPrice());
+          System.out.println("Final Total Price: "+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -228,8 +238,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -237,7 +249,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -252,8 +264,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -261,7 +275,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -276,8 +290,10 @@ public class Tester {
           System.out.println("Brand: "+supply.getBrands());
           System.out.println("Series: "+supply.getSeries());
           System.out.println("Quantity: "+supply.getQuantity());
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Price: $"+supply.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -285,7 +301,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+supply.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -296,7 +312,6 @@ public class Tester {
 
       }
     }if (choice == 2){
-      //token = token+1;
       System.out.println();
       System.out.println("Which brand would you like to choose?");
       System.out.println("1) Kokuyo");
@@ -323,8 +338,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -332,7 +349,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -347,8 +364,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -356,7 +375,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -371,8 +390,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -380,7 +401,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -404,7 +425,7 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
@@ -413,7 +434,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -428,8 +449,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -437,7 +460,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -452,8 +475,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -461,7 +486,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -485,8 +510,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -494,7 +521,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -509,8 +536,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -518,7 +547,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+paper.getTotalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -533,8 +562,10 @@ public class Tester {
           System.out.println("Brand: "+paper.getBrands());
           System.out.println("Media: "+paper.getMedia());
           System.out.println("Quantity: "+paper.getQuantity());
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Price: $"+paper.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -542,7 +573,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+paper.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -575,8 +606,10 @@ public class Tester {
           System.out.println("Brand: "+brush.getBrands());
           System.out.println("Type: "+brush.getType());
           System.out.println("Quantity: "+brush.getQuantity());
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Price: $"+brush.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -584,7 +617,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -599,8 +632,10 @@ public class Tester {
           System.out.println("Brand: "+brush.getBrands());
           System.out.println("Type: "+brush.getType());
           System.out.println("Quantity: "+brush.getQuantity());
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Price: $"+brush.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -608,7 +643,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -623,8 +658,10 @@ public class Tester {
           System.out.println("Brand: "+brush.getBrands());
           System.out.println("Type: "+brush.getType());
           System.out.println("Quantity: "+brush.getQuantity());
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Price: $"+brush.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -632,7 +669,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -656,8 +693,10 @@ public class Tester {
           System.out.println("Brand: "+brush.getBrands());
           System.out.println("Type: "+brush.getType());
           System.out.println("Quantity: "+brush.getQuantity());
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Price: $"+brush.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -665,7 +704,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -680,8 +719,10 @@ public class Tester {
           System.out.println("Brand: "+brush.getBrands());
           System.out.println("Type: "+brush.getType());
           System.out.println("Quantity: "+brush.getQuantity());
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Price: $"+brush.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -689,7 +730,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }
@@ -704,8 +745,10 @@ public class Tester {
           System.out.println("Brand: "+brush.getBrands());
           System.out.println("Type: "+brush.getType());
           System.out.println("Quantity: "+brush.getQuantity());
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Price: $"+brush.getTotalPrice());
           System.out.println();
+          totalPrice = totalPrice + supply.getTotalPrice();
+          System.out.println("Current Total: $"+totalPrice);
           System.out.println("Would you like to continue shopping or quit?");
           System.out.println("1) continue");
           System.out.println("2) quit");
@@ -713,7 +756,7 @@ public class Tester {
           int choice5 = Integer.parseInt(keyboard.readLine());
           System.out.println();
           if (choice5 == 2){
-          System.out.println("Total Price: $"+brush.getTotalPrice());
+          System.out.println("Final Total Price: $"+totalPrice());
           System.out.println("Thank you for visiting out store.");
           token = token+1;
         }

@@ -7,7 +7,7 @@ public class Paper extends MainMenu{
   private String series;
   private int quantity;
   private String type;
-
+  private String darkness;
   double price;
 
   public Paper(String name, String media, String brands, int quantity, double price){
@@ -43,11 +43,16 @@ public class Paper extends MainMenu{
     return price*quantity;
   }
 
-  public Paper(String type){
+  public Paper(String type, String darkness){
     this.type = type;
+    this.darkness = darkness;
   }
 
   public String getType(){
     return type;
+  }
+
+  public String getDarkness(){
+    return darkness;
   }
 }

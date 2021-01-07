@@ -7,10 +7,7 @@ public class Brushes extends MainMenu{
   private String series;
   private int quantity;
   private String media;
-  
-  double FaberCastleA = 7.99;
-  double FaberCastleB = 12.99;
-  double FaberCastleC = 16.99;
+  private String darkness;
   private double price;
 
   public Brushes(String name, String type, String brands, int quantity, double price){
@@ -42,8 +39,9 @@ public class Brushes extends MainMenu{
     return price*quantity;
   }
 
-  public Brushes(String media){
+  public Brushes(String media, String darkness){
     this.media = media;
+    this.darkness = darkness;
   }
 
   public String getMedia(){
@@ -52,6 +50,10 @@ public class Brushes extends MainMenu{
 
   public String getType(){
     return type;
+  }
+
+  public String getDarkness(){
+    return darkness;
   }
   
 }

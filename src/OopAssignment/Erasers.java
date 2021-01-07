@@ -7,19 +7,20 @@ public class Erasers extends MainMenu{
   private String series;
   private int quantity;
   private String media;
-
+  private String darkness;
 
   double price;
 
-  public Erasers(String name, String type, String brands, int quantity){
+  public Erasers(String name, String type, String brands, int quantity, double price){
     super(name);
     this.type = type;
     this.brands = brands;
     this.quantity = quantity;
+    this.price = price;
 
   }
-  public Erasers(String type, String brands, int quantity){
-    this("Erasers", type, brands, quantity);
+  public Erasers(String type, String brands, int quantity, double price){
+    this("Erasers", type, brands, quantity, price);
   }
 
   public String getSeries(){
@@ -38,8 +39,9 @@ public class Erasers extends MainMenu{
     return price*quantity;
   }
 
-  public Erasers(String media){
+  public Erasers(String media, String darkness){
     this.media = media;
+    this.darkness = darkness;
   }
 
   public String getMedia(){
@@ -48,5 +50,9 @@ public class Erasers extends MainMenu{
 
   public String getType(){
     return type;
+  }
+
+  public String getDarkness(){
+    return darkness;
   }
 }

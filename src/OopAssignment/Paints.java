@@ -7,10 +7,7 @@ public class Paints extends MainMenu{
   private int quantity;
   private String media;
   private String type;
-
-  
-  double FaberCastleB = 12.99;
-  double FaberCastleC = 16.99;
+  private String darkness;
   private double price;
   
   public Paints(String name, String series, String brands, int quantity, double price){
@@ -42,9 +39,10 @@ public class Paints extends MainMenu{
     return price*quantity;
   }
 
-  public Paints(String media, String type){
+  public Paints(String media, String type, String darkness){
     this.media = media;
     this.type = type;
+    this.darkness = darkness;
   }
 
   public String getMedia(){
@@ -53,6 +51,10 @@ public class Paints extends MainMenu{
 
   public String getType(){
     return type;
+  }
+
+  public String getDarkness(){
+    return darkness;
   }
 
   

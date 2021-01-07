@@ -30,11 +30,5 @@ public abstract class MainMenu{
   public abstract double getTotalPrice();
   public abstract String getMedia();
   public abstract String getType();
-/*
-  
-  
-  
-  public abstract double getSize();
-
-*/
+  public abstract String getDarkness();
 }

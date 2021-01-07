@@ -8,19 +8,19 @@ public class Pencils extends MainMenu{
   private int quantity;
   private String media;
   private String type;
+  private double price;
 
-  double price;
-
-  public Pencils(String name, String darkness, String brands, int quantity){
+  public Pencils(String name, String darkness, String brands, int quantity, double price){
     super(name);
     this.darkness = darkness;
     this.brands = brands;
     this.quantity = quantity;
+    this.price = price;
 
   }
 
-  public Pencils(String darkness, String brands, int quantity){
-    this("Pencils", darkness, brands, quantity);
+  public Pencils(String darkness, String brands, int quantity, double price){
+    this("Pencils", darkness, brands, quantity, price);
   }
 
   public String getSeries(){
@@ -50,5 +50,9 @@ public class Pencils extends MainMenu{
 
   public String getType(){
     return type;
+  }
+
+  public String getDarkness(){
+    return darkness;
   }
 }
